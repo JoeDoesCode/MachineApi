@@ -2,7 +2,7 @@
 {
   "modid": "influencemod",
   "name": "Influence",
-  "description": "Example placeholder mod.",
+  "description": "Mod Api.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
