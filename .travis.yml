@@ -1,6 +1,10 @@
 language: java
 install: ./gradlew setupDevWorkspace eclipse
 script: ./gradlew build
+cache:
+  directories:
+  - $HOME/.gradle
+  - $HOME/.m2
 deploy:
   provider: releases
   api_key:
